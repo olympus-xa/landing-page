@@ -105,7 +105,7 @@ li a {
 .social {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
     flex-direction: row;
     background-color: rgb(160, 160, 34);
     padding: 20px;
@@ -114,14 +114,10 @@ li a {
 }
 .social p {
     color: yellow;
-    font-size: 18px;
+    font-size: 24px;
 }
-.social button {
-    background-color: #f25f5f;
-    color: rgb(198, 230, 17);
-    font-size: 16px;
-    padding: 8px;
-    border-radius: 10%;
+.social input {
+    max-width: 5%;
 }
 
 
